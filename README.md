@@ -70,6 +70,7 @@ Known issues
 - larger uploads are precached in memory and not streamed to php-cgi -> high memory usage, long script runtime (increase `max_execution_time`)
 - large posts lead to EOF maybe related to output buffering
 - lack of rewrite rules may lead to problems like `somepath/index.php` != `/somepath` != `/somepath/index` != `/somepath/`
+- wordpress edit.php not working
 
 Contribution
 ============
