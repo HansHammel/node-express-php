@@ -67,3 +67,20 @@ known issues:
 - some php.ini settings are required, see above (not fully tested)
 - larger uploads are precached in memory and not streamed to php-cgi -> high memory usage, long script runtime (increase `max_execution_time`)
 - large posts lead to EOF maybe related to output buffering
+
+Known issues
+============
+
+- none
+
+Contribution
+============
+
+if you would like to help improving this module, please:
+- write tests
+- help debugging/ solving the known issues
+- send bug fixes/ pull request
+- if you use this module, provide a link for reference
+
+Changelog
+=========
