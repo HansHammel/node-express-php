@@ -62,16 +62,13 @@ var php = require('../node-express-php'),
 app.use(php(publicDir,php_cgi));
 ```
 
-known issues:
+Known issues
+============
+
 - paths like /bla.php/somepath?q=search (seo friendly url, nice permalinks) do not work
 - some php.ini settings are required, see above (not fully tested)
 - larger uploads are precached in memory and not streamed to php-cgi -> high memory usage, long script runtime (increase `max_execution_time`)
 - large posts lead to EOF maybe related to output buffering
-
-Known issues
-============
-
-- none
 
 Contribution
 ============
