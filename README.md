@@ -25,12 +25,12 @@ supports:
 - defaults to index.php if exists
 - tested with [wdCalendar](https://github.com/ronisaha/wdCalendar) (google calender clone) - get, post and ajax work!
 
-tip: partial support for wordpress
-- only site content does not work due to the lack of htaccess/ rewrite support
-- needs some config in wp-config.php to work, e.g.
-* define('WP_HOME','http://localhost:3000/wordpress');
-* define('WP_SITEURL','http://localhost:3000/wordpress');
-- install procedure may require some manual adjustment to the url, especially when using a port other than 80
+_tip: partial support for wordpress_
+- _only site content does not work due to the lack of htaccess/ rewrite support_
+- _needs some config in wp-config.php to work, e.g._
+    * _define('WP_HOME','http://localhost:3000/wordpress');_
+    * _define('WP_SITEURL','http://localhost:3000/wordpress');_
+- _install procedure may require some manual adjustment to the url, especially when using a port other than 80_
 
 Usage
 =====
