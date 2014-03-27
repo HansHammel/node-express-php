@@ -1,7 +1,7 @@
 node-express-php
 ================
 
-php middleware for express operating as cgi script for fast php integration on development environments
+php middleware for express operating as cgi script for fast php integration on development environments, for production please use nginx, iis or apache with php
 
 Installation
 ============
@@ -46,8 +46,8 @@ php.ini - required settings - restrictions:
 - default_mimetype = "text/html"
 - default_charset = "UTF-8"
 
-tip: dont forget to adjust `upload_max_filesize` and `post_max_size` for large uploads and enable the desired extensions like
-`extension=ext/php_mysql.dll`
+_tip: dont forget to adjust `upload_max_filesize` and `post_max_size` for large uploads and enable the desired extensions like
+`extension=ext/php_mysql.dll`_
 
 **use as express middleware**
 
