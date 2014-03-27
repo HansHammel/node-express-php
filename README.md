@@ -11,7 +11,7 @@ Installation
 
 or
 
-    npm install git+https://github.com/HansHammel/node-express-php.git
+    npm install "git+https://git@github.com/HansHammel/node-express-php.git" --save
 
 supports:
 - executes php-cgi.exe as cgi script (works on windows, should work on linux, too)
