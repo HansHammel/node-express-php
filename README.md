@@ -78,6 +78,7 @@ if you would like to help improving this module, please:
 - help debugging/ solving the known issues
 - send bug fixes/ pull request
 - if you use this module, provide a link for reference
+- lack of rewrite rules may lead to problems like `somepath/index.php` **!=** `/somepath` **!=** `/somepath/index` **!=** `/somepath/`
 
 Changelog
 =========
