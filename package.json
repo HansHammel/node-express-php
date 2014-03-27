@@ -1,0 +1,31 @@
+{
+    "name": "node-express-php",
+    "version": "0.0.1",
+    "description": "php middleware for express operating as cgi script for fast php integration on development environments",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/HansHammel/node-express-php.git"
+    },
+    "author": {
+        "name": "Hans Hammel"
+    },
+    "maintainers": [
+        {
+            "name": "HansHammel",
+            "email": "oh.schitt@freenet.de"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/HansHammel/node-express-php/issues"
+    },
+    "homepage": "https://github.com/HansHammel/node-express-php",
+    "dependencies": {
+        "sanitize-filename": "~1.0.1",
+        "querystring": "~0.2.0"
+    }
+}
