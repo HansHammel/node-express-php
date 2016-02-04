@@ -1,0 +1,17 @@
+{
+  "name": "node-express-php-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "open": "0.0.5",
+    "serve-index": "^1.7.3"
+  }
+}
