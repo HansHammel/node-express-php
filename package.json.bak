@@ -4,7 +4,6 @@
   "description": "php middleware for express operating as cgi script for fast php integration on development environments",
   "main": "lib/index.js",
   "scripts": {
-  	"pretest": "cd example && npm install",
     "test": "mocha test/app.js"
   },
   "repository": {
