@@ -2,7 +2,7 @@ var supertest = require('supertest');
 var should = require('should');
 var app = require('../example/server.js');
 
-var server = app.listen(3000);
+var server = app.listen(3003);
 
 describe('node-express-php', function () {
 
