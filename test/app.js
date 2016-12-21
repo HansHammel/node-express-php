@@ -2,12 +2,12 @@ var supertest = require('supertest');
 var should = require('should');
 var app = require('../example/server.js');
 
-var server = app.listen(3003);
+var server;
 
 describe('node-express-php', function () {
 
     before(function () {
-        server.listen(3000);
+        server.listen(3003);
     });
 
     after(function () {
