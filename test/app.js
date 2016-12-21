@@ -7,7 +7,7 @@ var server;
 describe('node-express-php', function () {
 
     before(function (done) {
-        server.listen(3003,'127.0.01',511, function(){
+        server.listen(3003,'127.0.0.1',511, function(){
             done();
         });
     });
