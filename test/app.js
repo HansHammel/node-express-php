@@ -6,12 +6,16 @@ var server;
 
 describe('node-express-php', function () {
 
-    before(function () {
-        server.listen(3003);
+    before(function (done) {
+        server.listen(3003,'127.0.01',511, function(){
+            done();
+        });
     });
 
-    after(function () {
-        server.close();
+    after(function (done) {
+        server.close(unction(){
+            done();
+        });
     });
 
 
